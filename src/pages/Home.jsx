@@ -6,20 +6,23 @@ import ForInvestors from '../components/sections/ForInvestors';
 import CTA from '../components/sections/CTA';
 
 const Home = () => {
-    return (
-        <>
-            <Helmet>
-                <title>Fringe Science Fund - Funding the Next Scientific Revolution</title>
-                <meta name="description" content="The Fringe Science Fund supports bold, unconventional research that challenges mainstream orthodoxy and pushes the boundaries of human knowledge." />
-            </Helmet>
+  return (
+    <>
+      <Helmet>
+        <title>Fringe Science Fund - Funding the Next Scientific Revolution</title>
+        <meta
+          name="description"
+          content="The Fringe Science Fund supports bold, unconventional research that challenges mainstream orthodoxy and pushes the boundaries of human knowledge."
+        />
+      </Helmet>
 
-            <Hero />
-            <Mission />
-            <ForScientists />
-            <ForInvestors />
-            <CTA />
-        </>
-    );
+      <Hero />
+      <Mission />
+      <ForScientists />
+      <ForInvestors />
+      <CTA />
+    </>
+  );
 };
 
 export default Home;

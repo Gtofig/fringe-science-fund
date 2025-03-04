@@ -1,0 +1,32 @@
+# Build outputs
+dist/
+coverage/
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Generated files
+*.generated.*
+# Package lock files (if you wish to ignore them, otherwise remove these)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
