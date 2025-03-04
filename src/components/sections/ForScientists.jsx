@@ -33,9 +33,9 @@ const ForScientists = () => {
                                     </div>
                                 </div>
                                 <blockquote className="italic text-gray-600 dark:text-gray-400 mb-4">
-                                    "The next scientific revolution will not come from inside the establishment—it
+                                    &#34;The next scientific revolution will not come from inside the establishment—it
                                     never has and never will. It will come from outsiders, dreamers, and the
-                                    brilliant souls working in the fringes."
+                                    brilliant souls working in the fringes.&#34;
                                 </blockquote>
                                 <p className="text-sm text-gray-500 dark:text-gray-500 text-right">
                                     — From the Fringe Science Manifesto

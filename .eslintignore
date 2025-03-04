@@ -1,0 +1,28 @@
+# Build directory
+dist/
+build/
+
+# Node modules
+node_modules/
+
+# Coverage directory
+coverage/
+
+# Temporary files
+.temp/
+.tmp/
+.cache/
+
+# Generated files
+*.generated.*
+
+# Environment files
+.env*
+!.env.example
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db

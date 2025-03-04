@@ -92,7 +92,7 @@ const FAQ = () => {
                         >
                             <h3 className="text-xl font-semibold mb-4">Still Have Questions?</h3>
                             <p className="text-gray-700 dark:text-gray-300 mb-4">
-                                Can't find what you're looking for? Feel free to reach out to us directly.
+                                Can&#39;t find what you&#39;re looking for? Feel free to reach out to us directly.
                             </p>
                             <div className="inline-flex">
                                 <a

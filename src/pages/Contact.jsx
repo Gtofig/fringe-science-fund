@@ -54,7 +54,7 @@ const Contact = () => {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5, delay: 0.1 }}
                         >
-                            We'd love to hear from you. Reach out with questions, ideas, or to discuss collaboration opportunities.
+                            We&#39;d love to hear from you. Reach out with questions, ideas, or to discuss collaboration opportunities.
                         </motion.p>
                     </div>
                 </div>

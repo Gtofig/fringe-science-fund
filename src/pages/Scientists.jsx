@@ -130,7 +130,7 @@ const Scientists = () => {
                             transition={{ duration: 0.5, delay: 0.1 }}
                         >
                             <p className="text-gray-700 dark:text-gray-300 mb-6">
-                                We're looking for scientists, researchers, and thinkers who are working on ideas
+                                We&#39;re looking for scientists, researchers, and thinkers who are working on ideas
                                 that are too unconventional for traditional academic institutions and funding sources.
                             </p>
 
@@ -145,7 +145,7 @@ const Scientists = () => {
                             </ul>
 
                             <p className="text-gray-700 dark:text-gray-300">
-                                <strong>Note:</strong> We value ideas over credentials. You don't need a PhD or
+                                <strong>Note:</strong> We value ideas over credentials. You don&#39;t need a PhD or
                                 academic affiliation to apply. What matters is the revolutionary potential of your work.
                             </p>
                         </motion.div>

@@ -42,7 +42,7 @@ const NotFound = () => {
                         transition={{ duration: 0.5, delay: 0.2 }}
                         className="text-lg text-gray-600 dark:text-gray-400 mb-8"
                     >
-                        The page you're looking for has disappeared into the quantum void.
+                        The page you&#39;re looking for has disappeared into the quantum void.
                         Perhaps it exists in another timeline, but not in this one.
                     </motion.p>
 

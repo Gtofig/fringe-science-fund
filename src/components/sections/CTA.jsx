@@ -28,7 +28,7 @@ const CTA = () => {
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: 0.1 }}
                         >
-                            The question isn't whether we can afford to take this risk.
+                            The question isn&#39;t whether we can afford to take this risk.
                             The question is: can we afford not to?
                         </motion.p>
 

@@ -26,6 +26,9 @@ const Mission = () => {
         }
     ];
 
+    // These variants are used by the motion.div components below
+    // The "visible" property is referenced by whileInView="visible"
+    // noinspection JSUnusedGlobalSymbols
     const cardVariants = {
         hidden: { opacity: 0, y: 20 },
         visible: (i) => ({
@@ -59,9 +62,9 @@ const Mission = () => {
                         viewport={{ once: true }}
                         transition={{ duration: 0.5, delay: 0.1 }}
                     >
-                        We have reached a point where today's science has grown cautious and consolidated.
+                        We have reached a point where today&#39;s science has grown cautious and consolidated.
                         The engine of fundamental discovery has seized. To avoid a new dark age,
-                        we must rediscover and revitalize the "fringe" in science—funding the unorthodox ideas
+                        we must rediscover and revitalize the &#34;fringe&#34; in science—funding the unorthodox ideas
                         that mainstream academia shuns.
                     </motion.p>
                 </div>

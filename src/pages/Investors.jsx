@@ -128,8 +128,8 @@ const Investors = () => {
                             </p>
 
                             <blockquote className="border-l-4 border-electric-blue pl-4 italic text-gray-600 dark:text-gray-400 my-6">
-                                "Most will fail, but the success stories could shake the foundations of reality itself,
-                                unlocking new energy sources, communication methods, or ways to manipulate matter."
+                                &#34;Most will fail, but the success stories could shake the foundations of reality itself,
+                                unlocking new energy sources, communication methods, or ways to manipulate matter.&#34;
                             </blockquote>
 
                             <p className="text-gray-700 dark:text-gray-300">

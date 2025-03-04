@@ -52,8 +52,10 @@ const Hero = () => {
                         animate={{ opacity: 1 }}
                         transition={{ duration: 1.2, delay: 0.4 }}
                     >
-                        <a
-                            href="#mission"
+                        <button
+                            onClick={() => {
+                                document.getElementById('mission')?.scrollIntoView({ behavior: 'smooth' });
+                            }}
                             className="flex items-center justify-center text-gray-600 dark:text-gray-400 hover:text-electric-blue dark:hover:text-electric-blue transition-colors"
                             aria-label="Scroll down"
                         >
@@ -69,7 +71,7 @@ const Hero = () => {
                             >
                                 <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
                             </svg>
-                        </a>
+                        </button>
                     </motion.div>
                 </div>
             </div>
