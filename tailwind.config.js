@@ -1,3 +1,4 @@
+// noinspection JSUnusedGlobalSymbols
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
@@ -30,7 +31,35 @@ export default {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
       },
+      typography: theme => ({
+        DEFAULT: {
+          css: {
+            a: {
+              color: theme('colors.electric-blue'),
+              '&:hover': {
+                color: theme('colors.future-teal'),
+              },
+            },
+            h1: {
+              fontFamily: theme('fontFamily.heading'),
+              fontWeight: theme('fontWeight.bold'),
+            },
+            h2: {
+              fontFamily: theme('fontFamily.heading'),
+              fontWeight: theme('fontWeight.bold'),
+            },
+            h3: {
+              fontFamily: theme('fontFamily.heading'),
+              fontWeight: theme('fontWeight.bold'),
+            },
+            h4: {
+              fontFamily: theme('fontFamily.heading'),
+              fontWeight: theme('fontWeight.bold'),
+            },
+          },
+        },
+      }),
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 };

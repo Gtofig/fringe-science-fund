@@ -13,7 +13,7 @@ export const blogPosts = [
       
       <p>This is precisely why the Fringe Science Fund exists - to create space for the kinds of revolutionary thinking that the current system struggles to support. By embracing a venture capital mindset toward scientific advancement, we can restore the conditions that allow paradigm-shifting discoveries to emerge.</p>
     `,
-    author: 'Dr. Eliza Morgan',
+    author: 'Dr. Tofig Hasanov',
     date: '2025-02-15',
     category: 'Scientific Progress',
     image: 'blog-post-1.jpg',
@@ -34,7 +34,7 @@ export const blogPosts = [
       
       <p>Revitalizing scientific revolution is thus not merely an academic concern, but essential for civilization's survival. By supporting the bold, unconventional research that mainstream institutions avoid, we help ensure that the light of scientific progress continues to advance rather than flicker and fade.</p>
     `,
-    author: 'Jonathan Warner',
+    author: 'Dr. Tofig Hasanov',
     date: '2025-01-30',
     category: 'Civilization',
     image: 'blog-post-2.jpg',
@@ -53,7 +53,7 @@ export const blogPosts = [
       
       <p>By diversifying across many unconventional approaches, we maximize our chances of supporting a genuine breakthrough. The risk isn't in funding unusual ideas - the real risk is in allowing scientific orthodoxy to prevent revolutionary discoveries from emerging at all.</p>
     `,
-    author: 'Maya Patel, PhD',
+    author: 'Dr. Tofig Hasanov',
     date: '2025-01-15',
     category: 'Funding Models',
     image: 'blog-post-3.jpg',
@@ -72,7 +72,7 @@ export const blogPosts = [
       
       <p>The Fringe Science Fund explicitly recognizes this pattern by supporting researchers regardless of their credentials or institutional affiliations. We value revolutionary ideas over academic pedigrees, creating opportunities for the next Einstein or McClintock to emerge from unexpected places.</p>
     `,
-    author: 'Dr. Marcus Chen',
+    author: 'Dr. Tofig Hasanov',
     date: '2024-12-10',
     category: 'Scientific History',
     image: 'blog-post-4.jpg',
