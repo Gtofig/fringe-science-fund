@@ -115,10 +115,9 @@ const Contact = () => {
                 name="contact"
                 method="POST"
                 data-netlify="true"
-                {/* eslint-disable-next-line react/no-unknown-property */}
+                /* eslint-disable-next-line react/no-unknown-property */
                 netlify-honeypot="bot-field"
               >
-
                 {/* These hidden fields are necessary for Netlify Forms */}
                 <input type="hidden" name="form-name" value="contact" />
                 <div hidden>
