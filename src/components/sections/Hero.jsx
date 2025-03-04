@@ -16,9 +16,9 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <span className="block gradient-text">Beyond Left and Right:</span>
+            <span className="block gradient-text">Beyond Scientific Orthodoxy:</span>
             <span className="block dark:text-white text-space-dark">
-              How Fringe Science Can Save Our Civilization
+              The Next Scientific Revolution Will Come From the Fringe
             </span>
           </motion.h1>
 
