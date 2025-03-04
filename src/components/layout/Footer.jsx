@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { FiGithub, FiTwitter, FiLinkedin, FiMail } from 'react-icons/fi';
+import { FiMail } from 'react-icons/fi';
 import NewsletterForm from '@/components/ui/NewsletterForm.jsx';
 
 const Footer = () => {
@@ -22,33 +22,6 @@ const Footer = () => {
               that challenges mainstream orthodoxy and pushes the boundaries of human knowledge.
             </p>
             <div className="flex space-x-4 mt-4">
-              <a
-                href="#"
-                className="text-gray-500 hover:text-electric-blue dark:text-gray-400 dark:hover:text-electric-blue transition-colors"
-                aria-label="Twitter"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FiTwitter className="h-5 w-5" />
-              </a>
-              <a
-                href="#"
-                className="text-gray-500 hover:text-electric-blue dark:text-gray-400 dark:hover:text-electric-blue transition-colors"
-                aria-label="LinkedIn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FiLinkedin className="h-5 w-5" />
-              </a>
-              <a
-                href="#"
-                className="text-gray-500 hover:text-electric-blue dark:text-gray-400 dark:hover:text-electric-blue transition-colors"
-                aria-label="GitHub"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FiGithub className="h-5 w-5" />
-              </a>
               <a
                 href="mailto:info@fringesciencefund.org"
                 className="text-gray-500 hover:text-electric-blue dark:text-gray-400 dark:hover:text-electric-blue transition-colors"
