@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { FiGithub, FiTwitter, FiLinkedin, FiMail } from 'react-icons/fi';
+import NewsletterForm from '@/components/ui/NewsLetterForm.jsx';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -116,20 +117,7 @@ const Footer = () => {
               Subscribe to our newsletter for the latest updates on fringe science and funding
               opportunities.
             </p>
-            <form className="space-y-2">
-              <input
-                type="email"
-                placeholder="Your email address"
-                className="w-full px-4 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-electric-blue"
-                required
-              />
-              <button
-                type="submit"
-                className="w-full px-4 py-2 bg-electric-blue text-space-dark font-medium rounded-md hover:shadow-neon transition-all"
-              >
-                Subscribe
-              </button>
-            </form>
+            <NewsletterForm className="space-y-2" />
           </div>
         </div>
 

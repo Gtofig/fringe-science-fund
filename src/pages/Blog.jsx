@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 import { FiCalendar, FiTag } from 'react-icons/fi';
 import Button from '../components/ui/Button';
 import { blogPosts } from '../data/blog';
+import NewsletterForm from '@/components/ui/NewsLetterForm.jsx';
 
 const Blog = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
@@ -148,17 +149,7 @@ const Blog = () => {
                 research.
               </p>
 
-              <form className="max-w-md mx-auto">
-                <div className="flex flex-col sm:flex-row gap-3">
-                  <input
-                    type="email"
-                    placeholder="Your email address"
-                    className="flex-grow px-4 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-electric-blue"
-                    required
-                  />
-                  <Button type="submit">Subscribe</Button>
-                </div>
-              </form>
+              <NewsletterForm className="max-w-md mx-auto" />
             </div>
           </div>
         </div>

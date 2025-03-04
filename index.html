@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--suppress HtmlFormInputWithoutLabel -->
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
@@ -8,6 +9,17 @@
     <meta name="description" content="The Fringe Science Fund supports bold, unconventional research that challenges mainstream orthodoxy and pushes the boundaries of human knowledge." />
 </head>
 <body>
+<!-- Hidden forms for Netlify -->
+<form name="contact" netlify netlify-honeypot="bot-field" hidden>
+    <input type="text" name="name" />
+    <input type="email" name="email" />
+    <input type="text" name="subject" />
+    <textarea name="message"></textarea>
+</form>
+<form name="newsletter" netlify netlify-honeypot="bot-field" hidden>
+    <input type="email" name="email" />
+</form>
+
 <div id="root"></div>
 <script type="module" src="/src/main.jsx"></script>
 </body>

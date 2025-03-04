@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet';
 import { FiMail, FiUser, FiMessageSquare } from 'react-icons/fi';
 import Button from '../components/ui/Button';
+import NewsletterForm from '@/components/ui/NewsLetterForm.jsx';
 
 const Contact = () => {
   const contactOptions = [
@@ -135,6 +136,7 @@ const Contact = () => {
                     <input
                       type="text"
                       id="name"
+                      name="name"
                       className="w-full px-4 py-2 bg-gray-100 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-electric-blue"
                       required
                     />
@@ -149,6 +151,7 @@ const Contact = () => {
                     <input
                       type="email"
                       id="email"
+                      name="email"
                       className="w-full px-4 py-2 bg-gray-100 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-electric-blue"
                       required
                     />
@@ -165,6 +168,7 @@ const Contact = () => {
                   <input
                     type="text"
                     id="subject"
+                    name="subject"
                     className="w-full px-4 py-2 bg-gray-100 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-electric-blue"
                     required
                   />
@@ -179,6 +183,7 @@ const Contact = () => {
                   </label>
                   <textarea
                     id="message"
+                    name="message"
                     rows="6"
                     className="w-full px-4 py-2 bg-gray-100 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-electric-blue"
                     required
@@ -221,21 +226,15 @@ const Contact = () => {
               opportunities.
             </motion.p>
 
-            <motion.form
-              className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto"
+            <motion.div
+              className="max-w-md mx-auto"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              <input
-                type="email"
-                placeholder="Your email address"
-                className="flex-grow px-4 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-electric-blue"
-                required
-              />
-              <Button type="submit">Subscribe</Button>
-            </motion.form>
+              <NewsletterForm />
+            </motion.div>
           </div>
         </div>
       </section>
