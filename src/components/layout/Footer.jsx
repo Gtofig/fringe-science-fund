@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { FiGithub, FiTwitter, FiLinkedin, FiMail } from 'react-icons/fi';
-import NewsletterForm from '@/components/ui/NewsLetterForm.jsx';
+import NewsletterForm from '@/components/ui/NewsletterForm.jsx';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();

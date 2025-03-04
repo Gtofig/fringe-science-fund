@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet';
 import { FiCalendar, FiTag, FiArrowLeft } from 'react-icons/fi';
 import Button from '../components/ui/Button';
-import NewsletterForm from '../components/ui/NewsletterForm';
+import NewsletterForm from '../components/ui/NewsletterForm.jsx';
 import { blogPosts } from '../data/blog';
 
 const BlogPost = () => {

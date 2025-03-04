@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet';
 import { FiCalendar, FiTag } from 'react-icons/fi';
 import Button from '../components/ui/Button';
 import { blogPosts } from '../data/blog';
-import NewsletterForm from '@/components/ui/NewsLetterForm.jsx';
+import NewsletterForm from '@/components/ui/NewsletterForm.jsx';
 
 const Blog = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');

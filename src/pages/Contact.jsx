@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet';
 import { FiMail, FiUser, FiMessageSquare } from 'react-icons/fi';
 import Button from '../components/ui/Button';
-import NewsletterForm from '@/components/ui/NewsLetterForm.jsx';
+import NewsletterForm from '@/components/ui/NewsletterForm.jsx';
 
 const Contact = () => {
   const contactOptions = [
