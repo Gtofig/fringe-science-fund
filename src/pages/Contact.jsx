@@ -110,7 +110,21 @@ const Contact = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.1 }}
             >
-              <form className="space-y-6" data-netlify="true">
+              <form
+                className="space-y-6"
+                name="contact"
+                method="POST"
+                data-netlify="true"
+                {/* eslint-disable-next-line react/no-unknown-property */}
+                netlify-honeypot="bot-field"
+              >
+
+                {/* These hidden fields are necessary for Netlify Forms */}
+                <input type="hidden" name="form-name" value="contact" />
+                <div hidden>
+                  <input name="bot-field" />
+                </div>
+
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label
