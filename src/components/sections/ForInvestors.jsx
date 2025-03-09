@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import Button from '../ui/Button';
-import { FiTrendingUp, FiUsers, FiShield, FiAward } from 'react-icons/fi';
+import { FiTrendingUp, FiUsers, FiShield, FiAward, FiClock } from 'react-icons/fi';
 
 const ForInvestors = () => {
   const investmentPoints = [
@@ -27,6 +27,11 @@ const ForInvestors = () => {
       title: 'Legacy Impact',
       description:
         'Be remembered as an early supporter of breakthrough discoveries that changed human history.',
+    },
+    {
+      icon: <FiClock className="w-6 h-6 text-electric-blue" />,
+      title: 'Get Early Access To New Discoveries',
+      description: 'Be the first to know about new discoveries and apply them in practice',
     },
   ];
 

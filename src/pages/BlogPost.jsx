@@ -93,11 +93,6 @@ const BlogPost = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              {/* Featured Image Placeholder */}
-              <div className="w-full h-64 bg-gray-200 dark:bg-gray-700 rounded-lg mb-8 flex items-center justify-center">
-                <span className="text-gray-400 dark:text-gray-500">[Featured Image]</span>
-              </div>
-
               {/* Content */}
               <div
                 className="prose prose-lg max-w-none dark:prose-invert prose-headings:font-heading prose-a:text-electric-blue"

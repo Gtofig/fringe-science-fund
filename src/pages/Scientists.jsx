@@ -43,22 +43,22 @@ const Scientists = () => {
     {
       title: 'Alternative Energy',
       description:
-        'Novel approaches to energy generation and storage that go beyond conventional methods.',
+        'We are still using the same energy sources as 70 years ago. We are looking for new, unconventional energy sources.',
     },
     {
       title: 'Fundamental Physics',
       description:
-        'Explorations that challenge or extend our understanding of quantum mechanics, relativity, or other foundational theories.',
+        'Explorations that challenge our understanding of foundational theories and propose new fundamental models.',
     },
     {
       title: 'Consciousness Studies',
       description:
-        'Research on the nature of consciousness that bridges physical and cognitive sciences.',
+        'Radically new models of consciousness, cognition, and the nature of reality that defy conventional neuroscience.',
     },
     {
-      title: 'Biological Enhancement',
+      title: 'Biology and Evolution',
       description:
-        'Novel approaches to extending human capabilities or lifespans outside of mainstream biomedical frameworks.',
+        'Novel theories of evolution, genetics, and human biology that challenge established paradigms.',
     },
     {
       title: 'Computing Paradigms',

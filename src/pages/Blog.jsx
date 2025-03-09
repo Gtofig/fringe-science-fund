@@ -98,12 +98,6 @@ const Blog = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.1 * index }}
               >
-                <div className="h-48 bg-gray-200 dark:bg-gray-700 relative">
-                  <div className="absolute inset-0 flex items-center justify-center text-gray-400 dark:text-gray-500">
-                    [Featured Image]
-                  </div>
-                </div>
-
                 <div className="p-6 flex-grow flex flex-col">
                   <div className="flex items-center text-sm text-gray-500 dark:text-gray-400 mb-3">
                     <span className="flex items-center mr-4">

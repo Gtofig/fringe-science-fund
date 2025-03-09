@@ -24,7 +24,7 @@ const Mission = () => {
     },
     {
       icon: <FiStar className="w-8 h-8 text-electric-blue" />,
-      title: 'Finding the Next Einstein',
+      title: 'For the rebels, by the rebels',
       description:
         'Revolutionary ideas often come from outsiders. We provide safe haven for brilliant minds working on the fringes.',
     },

@@ -29,7 +29,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.1 }}
           >
             Funding the next scientific revolution by supporting bold, unconventional ideas that
-            mainstream academia shuns.
+            have potential to change scientific paradigms.
           </motion.p>
 
           <motion.div

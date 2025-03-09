@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet';
 import Button from '../components/ui/Button';
 import Card from '../components/ui/Card';
-import { FiTarget, FiTrendingUp, FiUsers, FiShield, FiGlobe } from 'react-icons/fi';
+import { FiTarget, FiTrendingUp, FiUsers, FiShield, FiGlobe, FiClock } from 'react-icons/fi';
 
 const Investors = () => {
   const investmentModels = [
@@ -63,6 +63,11 @@ const Investors = () => {
       title: 'Legacy Impact',
       description:
         'Be remembered as an early supporter of breakthroughs that fundamentally changed human history and capability.',
+    },
+    {
+      icon: <FiClock className="w-12 h-12 text-electric-blue" />,
+      title: 'Get Early Access To New Discoveries',
+      description: 'Be the first to know about new discoveries and apply them in practice',
     },
   ];
 
