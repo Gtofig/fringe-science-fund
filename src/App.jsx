@@ -4,30 +4,37 @@ import Layout from './components/layout/Layout';
 
 // Pages
 import Home from './pages/Home';
-import Scientists from './pages/Scientists';
-import Investors from './pages/Investors';
-import FAQ from './pages/FAQ';
-import Blog from './pages/Blog';
-import Contact from './pages/Contact';
-import NotFound from './pages/NotFound';
 import BlogPost from '@/pages/BlogPost.jsx';
+import { lazy, Suspense } from 'react';
+
+// Only load components when they're needed
+const Scientists = lazy(() => import('./pages/Scientists'));
+const Investors = lazy(() => import('./pages/Investors'));
+const Blog = lazy(() => import('./pages/Blog'));
+const FAQ = lazy(() => import('./pages/FAQ'));
+const Contact = lazy(() => import('./pages/Contact'));
+const NotFound = lazy(() => import('./pages/NotFound'));
 
 function App() {
   return (
     <ThemeProvider>
       <Router>
-        <Layout>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/scientists" element={<Scientists />} />
-            <Route path="/investors" element={<Investors />} />
-            <Route path="/faq" element={<FAQ />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/blog/:id" element={<BlogPost />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </Layout>
+        <Suspense
+          fallback={<div className="min-h-screen flex items-center justify-center">Loading...</div>}
+        >
+          <Layout>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/scientists" element={<Scientists />} />
+              <Route path="/investors" element={<Investors />} />
+              <Route path="/faq" element={<FAQ />} />
+              <Route path="/blog" element={<Blog />} />
+              <Route path="/blog/:id" element={<BlogPost />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </Layout>
+        </Suspense>
       </Router>
     </ThemeProvider>
   );
