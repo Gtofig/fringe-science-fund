@@ -1,28 +1,69 @@
 export const blogPosts = [
   {
     id: 1,
-    title: 'Fringe Science Manifesto',
+    title: 'The Scientific Funding Crisis: How to Restart Technological Progress',
     excerpt:
-      'Why revitalizing fringe science is crucial to avoid a looming dark age and propel humanity into the next era of discovery.',
+      'Scientific progress has stagnated for nearly 50 years due to our flawed funding systems. This manifesto examines why our current scientific paradigms have calcified and proposes a radical new approach to restart true innovation.',
     content: `
-    <p>The greatest threat to our civilization isn't climate change, nuclear war, or artificial intelligence—it's the death of scientific revolution. Despite living in what appears to be a golden age of technology, beneath the surface lies a troubling reality: fundamental scientific progress has stalled.</p>
+    <h2>The Problem: Scientific Stagnation</h2>
+    <p>Scientific and technological progress essentially stopped in the 1970s. While we've seen quantitative growth and incremental engineering improvements, there have been few truly revolutionary breakthroughs in the past 50 years. If we compare scientific understanding from the 1950s to 80 years prior, we see tremendous differences. But comparing today's scientific paradigms to those of the 1950s-60s, surprisingly little has fundamentally changed.</p>
 
-    <p>Historically, every significant technological leap, from atomic energy to genome mapping, was preceded by revolutionary scientific breakthroughs. Thomas Kuhn famously illustrated how major scientific advances come through disruptive paradigm shifts, challenging established norms and ushering in entirely new eras of understanding.</p>
+    <p>This stagnation is at the core of our current civilizational crisis. The West's advantage has always been its scientific and technological superiority, but this advantage has been eroding for decades as innovation slowed while other regions caught up.</p>
 
-    <p>Yet, for over half a century, fundamental science has experienced incremental improvements rather than transformative revolutions. Our core theories, such as General Relativity and Quantum Mechanics, became unquestionable dogmas, while genuinely new ideas struggle to find support in an increasingly centralized and orthodox scientific community.</p>
+    <h2>Why Science Funding Failed</h2>
+    <p>The modern system of funding scientific and technological progress, created in the mid-20th century, initially seemed well-designed. In the United States, it consisted of grants for scientific research alongside venture financing for high-tech industries. This system was later adopted worldwide, with Soviet equivalents like NIRs (budgets for scientific research).</p>
 
-    <p>This stagnation isn't merely academic—it threatens civilization itself. As scientific breakthroughs slow, civilization risks losing its technological edge, becoming vulnerable to anti-civilization forces that leverage modern technology while rejecting the science behind it. If breakthroughs continue to stagnate, we risk slipping into a prolonged dark age.</p>
+    <p>Expert councils composed of established scientists decided which research deserved funding. In principle, this made sense - who better to evaluate scientific merit than experienced scientists? But this system contained a fatal flaw that would eventually strangle innovation.</p>
 
-    <p>The solution lies in embracing fringe science. Just as venture capital invests in risky tech startups, we must fund and support radical scientific ideas that mainstream academia rejects. Most of these ideas may fail, but those few successes could unlock revolutionary advancements, reshaping reality and safeguarding civilization's future.</p>
+    <p>The problem lies in how these expert councils are formed. Financial administrators need experts to distribute funds effectively, so they select individuals with impressive credentials - numerous scientific titles and publications. This approach inherently favors representatives of established, often aging scientific schools.</p>
 
-    <p>It's time for a "Fringe Science Renaissance"—not hidden away, but openly supported with resources and global collaboration. The next scientific revolution will not come from within the establishment; it never has. Instead, it will emerge from outsiders and dreamers bold enough to challenge orthodoxy.</p>
+    <h2>How Scientific Progress Should Work</h2>
+    <p>Thomas Kuhn showed decades ago that scientific progress occurs through paradigm shifts. A normal paradigm shift happens across three generations:</p>
 
-    <p>Can we afford to take this risk? The real question is: can we afford not to?</p>
-  `,
+    <p>1. First generation: Brilliant scientists create a new paradigm<br>
+      2. Second generation: Their capable students develop the paradigm further but treat it as sacred<br>
+      3. Third generation: Scholars who can only maintain but not develop the paradigm, teaching it dogmatically</p>
+
+    <p>Meanwhile, outside this establishment, those who see the limitations of the current paradigm develop new approaches. Eventually, the more fruitful new paradigm displaces the old one.</p>
+
+    <p>But our funding system disrupts this natural cycle. When the third, dogmatic generation gains control of expert councils, they use their administrative power to crush any research that challenges their beliefs. They deny grants to innovative thinkers and blacklist them from future funding. The result? Paradigm shifts stop occurring.</p>
+
+    <h2>Examples of Stagnation</h2>
+    <p>The evidence is everywhere:</p>
+
+    <p>- Rocketry still relies on chemical engines developed by von Braun and Tsander, with minimal improvement since the 1970s<br>
+      - Nuclear energy remains based on designs from the 1950s-70s<br>
+      - Aviation shows only quantitative improvements - modern Airbus aircraft differ from the Comet or Caravelle primarily in reliability and comfort<br>
+      - Medicine remains largely stuck in the Pasteurian paradigm from 150 years ago</p>
+
+    <h2>The Solution: Reforming Scientific Funding</h2>
+    <p>To restart scientific progress, we need a fundamental reform of how research is funded:</p>
+
+    <p>1. De-ideologize science funding completely<br>
+      2. Create a robust mechanism for testing alternative scientific hypotheses<br>
+      3. When someone claims to have discovered a new principle:</p>
+
+    <p>- Grant them access to well-funded laboratories to prove their case<br>
+      - Simultaneously fund established scientists to try to disprove the claim<br>
+      - Judge results based on experimental evidence, not dogma</p>
+
+    <p>This verification mechanism must be implemented first. It won't be quick - we've been filling these "Augean stables" for half a century, so cleaning them will take time. We must systematically examine marginalized theories, determine their fruitfulness, and either build upon them or discard them based on evidence.</p>
+
+    <p>Yes, in many cases we'll discover we've spent money verifying dead ends - but at least we'll know with certainty rather than relying on the opinions of those with obvious conflicts of interest.</p>
+
+    <h2>The Future of Scientific Leadership</h2>
+    <p>Whoever implements this new funding mechanism first will become the new center of scientific and technological progress. Historically, the United States has led this progress for the past century and a half. American corporations might pioneer this reform first, allowing them to maintain leadership.</p>
+
+    <p>Europe could theoretically take this role, but currently lags behind in de-ideologizing its institutions. Other nations with scientific potential could also emerge as innovation centers if they develop mechanisms that effectively utilize their human capital.</p>
+
+    <p>The key is focusing resources on those who can advance progress rather than distributing them based on ideological considerations. We must choose between social ideology and effectiveness - and our future depends on making the right choice.</p>
+    
+    <h2>Introducing the Fringe Science Fund</h2>
+    <p>This is precisely why we've created the Fringe Science Fund – a direct response to the calcification of scientific institutions. Unlike traditional funding bodies captured by third-generation dogmatists, our fund operates entirely free from ideological constraints and established paradigm biases. We specifically target scientists working on fringe ideas in fundamental science – those with the potential to trigger paradigm shifts but who find themselves systematically excluded from conventional funding channels. Our investors aren't interested in maintaining appearances or supporting "safe" research that merely extends existing frameworks. They're looking for revolutionary breakthroughs, even if they challenge entrenched scientific orthodoxy. By creating this alternative funding mechanism, we're building the institutional infrastructure needed to restart genuine scientific progress – focusing exclusively on experimental results and potential breakthrough impact rather than credentials, publication histories, or adherence to established dogma. </p>    
+`,
     author: 'Dr. Tofig Hasanov',
-    date: '2025-03-09',
+    date: '2025-03-29',
     category: 'Manifesto',
-    image: 'fringe-science-manifesto.webp',
   },
   {
     id: 2,

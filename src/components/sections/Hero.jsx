@@ -46,6 +46,22 @@ const Hero = () => {
             </Button>
           </motion.div>
 
+          {/* Manifesto Link */}
+          <motion.div
+            className="mt-6"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.3 }}
+          >
+            <a
+              href="/blog/1"
+              className="inline-block text-electric-blue dark:text-electric-blue hover:underline font-medium text-lg"
+            >
+              <span>Read: The Fringe Science Manifesto</span>
+              <span className="ml-2">→</span>
+            </a>
+          </motion.div>
+
           <motion.div
             className="mt-12 md:mt-16"
             initial={{ opacity: 0 }}
