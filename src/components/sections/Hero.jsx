@@ -1,14 +1,15 @@
 import { motion } from 'framer-motion';
 import Button from '../ui/Button';
+import TimelineChart from '../ui/TimelineChart.jsx';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
+    <section className="relative min-h-screen flex flex-col items-center overflow-hidden">
       {/* Background effects */}
       <div className="absolute inset-0 dark:opacity-70 opacity-20 stars"></div>
       <div className="absolute inset-0 dark:opacity-50 opacity-20 blur-gradient"></div>
 
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="container mx-auto px-4 relative z-10 flex-grow flex flex-col justify-center">
         <div className="max-w-4xl mx-auto text-center">
           <motion.h1
             className="mb-6 font-extrabold tracking-tight"
@@ -62,8 +63,10 @@ const Hero = () => {
             </a>
           </motion.div>
 
+          <TimelineChart />
+
           <motion.div
-            className="mt-12 md:mt-16"
+            className="mt-6 md:mt-8"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1.2, delay: 0.4 }}
